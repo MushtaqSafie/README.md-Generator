@@ -5,34 +5,34 @@ const fs = require('fs');
 // TODO: Create an array of questions for user input
 const promptUser = () => inquirer.prompt(questions);
 
+// Project Title, Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+// Project Title sample promt
+// -----
+// also promt if want to have the following sections
+// Description, installation instructions, usage information, contribution quidelines, and test instructions (section notepad multilines text)
+// -----
+// Multiple choose, list of options (choosea license)
+// badge for that license is add near tothe top of the the readme file,  and added section on bottom as well
+// ---
+// promt Github username
+// promot email address
+
+// ---
+// table of content automaticly created with links.
+
 const questions = [
   {
   type: 'input',
-  name: 'firstname',
-  message: 'What is your name1?',
-  },
-  {
-  type: 'input',
-  name: 'lastname',
-  message: 'What is your name2?',
-  },
-  {
-  type: 'input',
-  name: '3rd',
-  message: 'What is your name3?',
-  },
-  {
-  type: 'input',
-  name: '4rd',
-  message: 'What is your name4?',
+  name: 'title',
+  message: 'Enter the project title?',
   },
   {
     type: 'editor',
-    name: 'bio',
-    message: 'Please write a short bio of at least 3 lines.',
+    name: 'description',
+    message: 'Write a short description of the project at least 3 lines.',
     validate: function (text) {
-      if (text.split('\n').length < 3) {
-        return 'Must be at least 3 lines.';
+      if (text.split('\n').length < 1) {
+        return 'Must be at least 2 lines.';
       }
 
       return true;
@@ -45,80 +45,12 @@ const questions = [
     default: false,
   },
   {
-    type: 'input',
-    name: 'phone',
-    message: "What's your phone number?",
-    validate: function (value) {
-      var pass = value.match(
-        /^([01]{1})?[-.\s]?\(?(\d{3})\)?[-.\s]?(\d{3})[-.\s]?(\d{4})\s?((?:#|ext\.?\s?|x\.?\s?){1}(?:\d+)?)?$/i
-      );
-      if (pass) {
-        return true;
-      }
-
-      return 'Please enter a valid phone number';
-    },
-  },
-  {
     type: 'list',
-    name: 'size',
+    name: 'license',
     message: 'What size do you need?',
-    choices: ['Large', 'Medium', 'Small'],
+    choices: ['ISC', 'MIT', 'Academic Free License v3.0', 'GNU'],
     filter: function (val) {
       return val.toLowerCase();
-    },
-  },
-  {
-    type: 'input',
-    name: 'quantity',
-    message: 'How many do you need?',
-    validate: function (value) {
-      var valid = !isNaN(parseFloat(value));
-      return valid || 'Please enter a number';
-    },
-    filter: Number,
-  },
-  {
-    type: 'expand',
-    name: 'toppings',
-    message: 'What about the toppings?',
-    choices: [
-      {
-        key: 'p',
-        name: 'Pepperoni and cheese',
-        value: 'PepperoniCheese',
-      },
-      {
-        key: 'a',
-        name: 'All dressed',
-        value: 'alldressed',
-      },
-      {
-        key: 'w',
-        name: 'Hawaiian',
-        value: 'hawaiian',
-      },
-    ],
-  },
-  {
-    type: 'rawlist',
-    name: 'beverage',
-    message: 'You also get a free 2L beverage',
-    choices: ['Pepsi', '7up', 'Coke'],
-  },
-  {
-    type: 'input',
-    name: 'comments',
-    message: 'Any comments on your purchase experience?',
-    default: 'Nope, all good!',
-  },
-  {
-    type: 'list',
-    name: 'prize',
-    message: 'For leaving a comment, you get a freebie',
-    choices: ['cake', 'fries'],
-    when: function (answers) {
-      return answers.comments !== 'Nope, all good!';
     },
   },
 ];
@@ -127,8 +59,10 @@ const questions = [
 // function writeToFile(fileName, data) {}
 
 const generateMarkDown = (ans) =>
-`# ${ans.firstname}
-## ${ans.lastname}
+`# ${ans.title}
+${ans.description}
+
+## ${ans.toBeDelivered}
 
 ${ans.lastname}
 ${ans.bio}
