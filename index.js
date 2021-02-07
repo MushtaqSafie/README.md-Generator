@@ -7,21 +7,6 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const promptUser = () => inquirer.prompt(questions);
 
-// Project Title, Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-// Project Title sample promt
-// -----
-// also promt if want to have the following sections
-// Description, installation instructions, usage information, contribution quidelines, and test instructions (section notepad multilines text)
-// -----
-// Multiple choose, list of options (choosea license)
-// badge for that license is add near tothe top of the the readme file,  and added section on bottom as well
-// ---
-// promt Github username
-// promot email address
-
-// ---
-// table of content automaticly created with links.
-
 const questions = [
   {
   type: 'input',
@@ -65,7 +50,7 @@ const questions = [
 function init() {
   promptUser().then(answers => {
     const mdFile = generateMarkdown(answers);
-    fs.writeFileSync('README.md', mdFile)
+    fs.writeFileSync('newREADME.md', mdFile)
     console.log('Successfully README.md is created');
   })
   .catch(error => {
