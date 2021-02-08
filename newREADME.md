@@ -1,8 +1,8 @@
-# Project Title
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+# Project title
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 ## Description
-The description of the project
+description of the project
 
 ## Table of Contents
 - [Description](#Description)
@@ -14,23 +14,23 @@ The description of the project
 - [Questions](#Questions)
 
 ## Installation
-This is instllation quideline of how to install the application
+installation quideline
 
 ## Usage
-The usage of the appliction
+application usage
 
 ## Contribution Guidelines
-The contribution quideline
+this is the contribution guideline
 
 ## Tests
-Tests here
+tests here
 
 
 ## License
-This application is covered under the BSD 3-Clause.
-For more information, [click here](https://opensource.org/licenses/BSD-3-Clause).
+This application is covered under the GNU General Public License v2.0.
+For more information, [click here](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 
 ## Questions
-**My GitHub Profile**: [MushtaqSafie](https://github.com/MushtaqSafie)
+**My GitHub Profile**: [Mushtaqsafie](https://github.com/Mushtaqsafie)
 
 If you have any further questions, please email me at [mushtaq.safie@students.mq.edu.au](mailto:mushtaq.safie@students.mq.edu.au).

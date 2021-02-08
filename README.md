@@ -7,9 +7,8 @@ This application creates a professional readme.md file quickly & easily using co
 ## Table of Contents
 - [Description](#Description)
 - [Installation](#Installation)
-- [Usage](#Usage)
-- [Contribution Guidelines](#Contribution-Guidelines)
-- [Tests](#Tests)
+- [How to Use](#How-to-Use)
+- [Screenshots](#Screenshots)
 - [License](#License)
 - [Questions](#Questions)
 
