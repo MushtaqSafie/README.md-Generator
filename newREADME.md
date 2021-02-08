@@ -1,7 +1,7 @@
 # title
 
 ## Description
-descripton
+descpriton
 
 ## Table of Contents
 - [Description](#Description)
@@ -32,4 +32,4 @@ For more information, [click here](https://opensource.org/licenses/ISC).
 ## Questions
 **My GitHub Profile**: [MushtaqSafie](https://github.com/MushtaqSafie)
 
-If you have any further questions, please email me at [mushtaq.safie@students.mq.edu.au](mailto:mushtaq.safie@students.mq.edu.au).
+If you have any further questions, please email me at [mushtaqsafie@outlook.com](mailto:mushtaqsafie@outlook.com).
