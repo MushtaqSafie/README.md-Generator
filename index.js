@@ -80,6 +80,16 @@ const promptUser = () => inquirer.prompt([
       return val.toLowerCase();
     },
   },
+  {
+    type: 'input',
+    name: 'gitHub',
+    message: 'Enter your GitHub profile <UserName>',
+  },
+  {
+    type: 'input',
+    name: 'contactEmail',
+    message: 'Enter your contact email address',
+  }
 ]);
 
 // TODO: Create a function to write README file
