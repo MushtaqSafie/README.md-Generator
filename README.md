@@ -27,6 +27,11 @@ node index.js
 ## Usage
 Generate Markdown file (readme.md)
 
+## Technologies Used
+* [JavaScriptja](https://www.javascript.com/)
+* [node.js](https://nodejs.org/en/)
+* [npm inquirer package](https://www.npmjs.com/package/inquirer)
+
 ## Contribution Guidelines
 Guidelines for contribution
 
