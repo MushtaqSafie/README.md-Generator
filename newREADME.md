@@ -1,5 +1,5 @@
-# Project title
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+# project title
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Description
 description of the project
@@ -14,23 +14,23 @@ description of the project
 - [Questions](#Questions)
 
 ## Installation
-installation quideline
+installation guideline
 
 ## Usage
 application usage
 
 ## Contribution Guidelines
-this is the contribution guideline
+contribution guideline
 
 ## Tests
-tests here
+test here
 
 
 ## License
-This application is covered under the GNU General Public License v2.0.
-For more information, [click here](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+This application is covered under the Mozilla Public License 2.0.
+For more information, [click here](https://opensource.org/licenses/MPL-2.0).
 
 ## Questions
-**My GitHub Profile**: [Mushtaqsafie](https://github.com/Mushtaqsafie)
+**My GitHub Profile**: [MushtaqSafie](https://github.com/MushtaqSafie)
 
 If you have any further questions, please email me at [mushtaq.safie@students.mq.edu.au](mailto:mushtaq.safie@students.mq.edu.au).

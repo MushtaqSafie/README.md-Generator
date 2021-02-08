@@ -49,6 +49,8 @@ Select your repository license type?
 
 All you need is to answer the prompt question and the application will generate the readme file automatically using your responses.
 
+[Click Here](https://drive.google.com/file/d/1jxbrEhsSHyNQBtOd_zqm-LFPxm8Zr_En/view) to view walkthrough view of how to use the application.
+
 ## Screenshots
 ### Prompt questions on terminal command-line
 ![Image of prompt questions](https://raw.githubusercontent.com/MushtaqSafie/README.md-Generator/main/assets/promptQuestions.JPG)
