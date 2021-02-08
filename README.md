@@ -50,7 +50,9 @@ Select your repository license type?
 All you need is to answer them and the application will generate the readme file using your responses.
 
 ## Screenshots
-
+![Image of prompt questions](https://raw.githubusercontent.com/MushtaqSafie/README.md-Generator/main/assets/promptQuestions.JPG)
+![Image of readme.md source file](https://raw.githubusercontent.com/MushtaqSafie/README.md-Generator/main/assets/readmecode.JPG)
+![Image of readme.md](https://raw.githubusercontent.com/MushtaqSafie/README.md-Generator/main/assets/readme.JPG)
 
 ## Technologies Used
 * [JavaScript](https://www.javascript.com/)
