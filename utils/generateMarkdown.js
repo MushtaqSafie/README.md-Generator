@@ -19,11 +19,10 @@ ${data.description}
 
 ## Table of Contents
 - [Description](#Description)
-- [Table of Contents](#Table-of-Contents)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Contribution Guidelines](#Contribution-Guidelines)
-- [Tests](#Tests)
+${data.includeInstallation ? `- [Installation](#Installation)` : ``}
+${data.includeUsage ? `- [Usage](#Usage)` : ``}
+${data.includeContribution ? `- [Contribution Guidelines](#Contribution-Guidelines)` : ``}
+${data.includeTests ? `- [Tests](#Tests)` : ``}
 - [License](#License)
 - [Questions](#Questions)
 
