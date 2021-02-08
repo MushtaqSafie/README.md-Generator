@@ -8,12 +8,12 @@ const promptUser = () => inquirer.prompt([
   {
   type: 'input',
   name: 'title',
-  message: 'Enter your project title.',
+  message: 'Enter your project title?',
   },
   {
   type: 'input',
   name: 'description',
-  message: 'Enter your project description.',
+  message: 'Enter your project description?',
   },
   {
     type: 'confirm',

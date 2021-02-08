@@ -24,11 +24,20 @@ npm install
 node index.js
 ```
 
-## Usage
-Generate Markdown file (readme.md)
+## How to Use
+Once you run node inde.js the application will run and prompt the following questions
+```
+Enter your project title?
+```
+Define the mean title of the readme file.
+
+```
+Enter your project description.
+```
+Define a description of the project.
 
 ## Technologies Used
-* [JavaScriptja](https://www.javascript.com/)
+* [JavaScript](https://www.javascript.com/)
 * [node.js](https://nodejs.org/en/)
 * [npm inquirer package](https://www.npmjs.com/package/inquirer)
 
