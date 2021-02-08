@@ -27,17 +27,18 @@ ${data.description}
 - [License](#License)
 - [Questions](#Questions)
 
-## Installation
+${data.installation ? `## Installation
 ${data.installation}
-
-## Usage
+` : ``}
+${data.usage ? `## Usage
 ${data.usage}
-
-## Contribution Guidelines
+` : ``}
+${data.contribution ? `## Contribution Guidelines
 ${data.contribution}
-
-## Tests
+` : ``}
+${data.tests ? `## Tests
 ${data.tests}
+` : ``}
 
 ## License
 This application is covered under the ISC license.
