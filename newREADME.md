@@ -1,8 +1,8 @@
-# Professional README.md file generator
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Project Title
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Description
-Create professional readme.md file quickly & easily using command line terminal. 
+The description of the project
 
 ## Table of Contents
 - [Description](#Description)
@@ -14,23 +14,23 @@ Create professional readme.md file quickly & easily using command line terminal.
 - [Questions](#Questions)
 
 ## Installation
-npm install
+This is instllation quideline of how to install the application
 
 ## Usage
-Generate Markdown file (readme.md)
+The usage of the appliction
 
 ## Contribution Guidelines
-Guidelines for contribution
+The contribution quideline
 
 ## Tests
-node index.js
+Tests here
 
 
 ## License
-This application is covered under the MIT License.
-For more information, [click here](https://opensource.org/licenses/MIT).
+This application is covered under the BSD 3-Clause.
+For more information, [click here](https://opensource.org/licenses/BSD-3-Clause).
 
 ## Questions
 **My GitHub Profile**: [MushtaqSafie](https://github.com/MushtaqSafie)
 
-If you have any further questions, please email me at [Mushtaq.safie@students.mq.edu.au](mailto:Mushtaq.safie@students.mq.edu.au).
+If you have any further questions, please email me at [mushtaq.safie@students.mq.edu.au](mailto:mushtaq.safie@students.mq.edu.au).

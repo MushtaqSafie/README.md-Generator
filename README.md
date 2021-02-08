@@ -47,7 +47,7 @@ Enter your contact email address
 Select your repository license type?
 ```
 
-
+All you need is to answer them and the application will generate the readme file using your responses.
 
 ## Technologies Used
 * [JavaScript](https://www.javascript.com/)
