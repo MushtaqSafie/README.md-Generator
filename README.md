@@ -1,11 +1,11 @@
-# README Templete File 
+# Professional README.md file generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-The description of the project.
+Create professional readme.md file quickly & easily using command line terminal. 
 
 ## Table of Contents
 - [Description](#Description)
-- [Table of Contents](#Table-of-Contents)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Contribution Guidelines](#Contribution-Guidelines)
@@ -14,26 +14,22 @@ The description of the project.
 - [Questions](#Questions)
 
 ## Installation
-1. Fisrt step of the installation.
-2. Secound step of the installation.
-3. ..third steps of the installation
+npm install
 
 ## Usage
-- First usage or benefits of the app.
-- Second usage or benefits of the app.
-- ..third usage or benefits of the app.
+Generate Markdown file (readme.md)
 
 ## Contribution Guidelines
-Instruction & guidelines of how to contribute to the project.
+Guidelines for contribution
 
 ## Tests
-How to run tests of the app.
+node index.js
 
 ## License
-This application is covered under the ISC license.
-For more information, [click here](https://opensource.org/licenses/ISC).
+This application is covered under the MIT License.
+For more information, [click here](https://opensource.org/licenses/MIT).
 
 ## Questions
 **My GitHub Profile**: [MushtaqSafie](https://github.com/MushtaqSafie)
 
-If you have any further questions, please email me at [mushtaq.safie@students.mq.edu.au](mushtaq.safie@students.mq.edu.au).
+If you have any further questions, please email me at [Mushtaq.safie@students.mq.edu.au](mailto:Mushtaq.safie@students.mq.edu.au).

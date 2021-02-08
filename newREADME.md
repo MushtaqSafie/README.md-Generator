@@ -1,28 +1,36 @@
-# tytle
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Professional README.md file generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-eyf
+Create professional readme.md file quickly & easily using command line terminal. 
 
 ## Table of Contents
 - [Description](#Description)
-
-
-
-
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contribution Guidelines](#Contribution-Guidelines)
+- [Tests](#Tests)
 - [License](#License)
 - [Questions](#Questions)
 
+## Installation
+npm install
 
+## Usage
+Generate Markdown file (readme.md)
 
+## Contribution Guidelines
+Guidelines for contribution
 
+## Tests
+node index.js
 
 
 ## License
-This application is covered under the Apache License 2.0.
-For more information, [click here](https://opensource.org/licenses/Apache-2.0).
+This application is covered under the MIT License.
+For more information, [click here](https://opensource.org/licenses/MIT).
 
 ## Questions
-**My GitHub Profile**: [t](https://github.com/t)
+**My GitHub Profile**: [MushtaqSafie](https://github.com/MushtaqSafie)
 
-If you have any further questions, please email me at [t](mailto:t).
+If you have any further questions, please email me at [Mushtaq.safie@students.mq.edu.au](mailto:Mushtaq.safie@students.mq.edu.au).
