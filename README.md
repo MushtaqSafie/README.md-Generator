@@ -49,6 +49,9 @@ Select your repository license type?
 
 All you need is to answer them and the application will generate the readme file using your responses.
 
+## Screenshots
+
+
 ## Technologies Used
 * [JavaScript](https://www.javascript.com/)
 * [node.js](https://nodejs.org/en/)
