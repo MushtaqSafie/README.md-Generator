@@ -1,22 +1,20 @@
 # title
 
 ## Description
-description
+descritpion
 
 ## Table of Contents
 - [Description](#Description)
 - [Installation](#Installation)
-- [Usage](#Usage)
+
 
 
 - [License](#License)
 - [Questions](#Questions)
 
 ## Installation
-installation sectiono
+t
 
-## Usage
-application usage
 
 
 
@@ -28,4 +26,4 @@ For more information, [click here](https://opensource.org/licenses/ISC).
 ## Questions
 **My GitHub Profile**: [MushtaqSafie](https://github.com/MushtaqSafie)
 
-If you have any further questions, please email me at [mushtaq.safie@students.mq.edu.au](mushtaq.safie@students.mq.edu.au).
+If you have any further questions, please email me at <mushtaq.safie@students.mq.edu.au>.

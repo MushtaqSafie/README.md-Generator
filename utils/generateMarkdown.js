@@ -46,7 +46,7 @@ For more information, [click here](https://opensource.org/licenses/ISC).
 ## Questions
 **My GitHub Profile**: [${data.gitHub}](https://github.com/${data.gitHub})
 
-If you have any further questions, please email me at [${data.contactEmail}](${data.contactEmail}).
+If you have any further questions, please email me at <${data.contactEmail}>.
 `;
 
 }
