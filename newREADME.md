@@ -1,7 +1,8 @@
-# title
+# Create professional Readme files in node js
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-descpriton
+Create professional Readme files in node js
 
 ## Table of Contents
 - [Description](#Description)
@@ -13,21 +14,21 @@ descpriton
 - [Questions](#Questions)
 
 ## Installation
-y
+npm i
 
 ## Usage
-y
+Quickly and easily generate readme file
 
 ## Contribution Guidelines
-y
+everyone wel
 
 ## Tests
-y
+a
 
 
 ## License
-This application is covered under the ISC license.
-For more information, [click here](https://opensource.org/licenses/ISC).
+This application is covered under the MIT License.
+For more information, [click here](https://opensource.org/licenses/MIT).
 
 ## Questions
 **My GitHub Profile**: [MushtaqSafie](https://github.com/MushtaqSafie)

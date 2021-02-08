@@ -72,15 +72,6 @@ const promptUser = () => inquirer.prompt([
     },
   },
   {
-    type: 'list',
-    name: 'license',
-    message: 'What size do you need?',
-    choices: ['ISC', 'MIT', 'Academic Free License v3.0', 'GNU'],
-    filter: function (val) {
-      return val.toLowerCase();
-    },
-  },
-  {
     type: 'input',
     name: 'gitHub',
     message: 'Enter your GitHub profile <UserName>',
@@ -89,8 +80,30 @@ const promptUser = () => inquirer.prompt([
     type: 'input',
     name: 'contactEmail',
     message: 'Enter your contact email address',
-  }
+  },
+  {
+    type: 'list',
+    name: 'license',
+    message: 'Select your license type?',
+    choices: [
+      'Apache License 2.0',
+      'GNU General Public License v3',
+      'MIT License',
+      'BSD 2-Clause',
+      'BSD 3-Clause',
+      'Boost Software 1.0',
+      'CreativeCommons Zero v1.0 Universal',
+      'Eclipse Public 2.0',
+      'GNU Affero General Public License v3.0',
+      'GNU General Public License v2.0',
+      'GNU Lesser General Public License v3.0',
+      'Mozilla Public License 2.0',
+      'The Unlicense',
+    ],
+  },
 ]);
+
+
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
