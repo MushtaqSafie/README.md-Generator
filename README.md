@@ -28,42 +28,24 @@ node index.js
 Once you run node inde.js the application will run and prompt the following questions
 ```
 Enter your project title?
-```
-Define the mean title of the readme file.
-
-```
 Enter your project description?
-```
-Define a description of the project.
-```
+
 Would you like to add installation guideline? (Y/n)
 Enter the installation guideline
-```
-Confirm if you would like to include a installation guideline section in readme, if (yes) then define the installation guidline.
-```
+
 Would you like to add the application usage? (Y/n)
 Enter the application usage
-```
-Confirm if you would like to include a usage section in readme, if (yes) then define the application usage.
-```
+
 Would you like to add contribution guidelines? (Y/n)
 Enter the contribution guidelines
-```
-Confirm if you would like to include a contribution guidelines section in readme, if (yes) then define the contribution guidelines.
-```
+
 Would you like to add the application tests instruction? (Y/n)
 Enter the application tests instruction
-```
-Confirm if you would like to include a tests instruction section in readme, if (yes) then define the tests instruction.
-```
-Enter your GitHub profile <UserName>
-```
-Define your GitHub profile username.
-```
-Enter your contact email address
-```
-You contact email address
 
+Enter your GitHub profile <UserName>
+Enter your contact email address
+Select your repository license type?
+```
 
 
 

@@ -84,7 +84,7 @@ const promptUser = () => inquirer.prompt([
   {
     type: 'list',
     name: 'license',
-    message: 'Select your license type?',
+    message: 'Select your repository license type?',
     choices: [
       'Apache License 2.0',
       'GNU General Public License v3',
