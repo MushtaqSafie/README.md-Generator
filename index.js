@@ -114,7 +114,6 @@ function init() {
     const mdFile = generateMarkdown(answers);
     fs.writeFileSync('newREADME.md', mdFile)
     console.log('Successfully README.md is created');
-    console.log(answers);
   })
   .catch(error => {
     if(error.isTtyError) {
