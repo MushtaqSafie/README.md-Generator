@@ -12,13 +12,41 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log('successed');
   return `# ${data.title}
+
+## Description
 ${data.description}
-## ${data.toBeDelivered}
-${data.lastname}
-${data.bio}
-${JSON.stringify(data, null, '  ')}
+
+## Table of Contents
+- [Description](#Description)
+- [Table of Contents](#Table-of-Contents)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contribution Guidelines](#Contribution-Guidelines)
+- [Tests](#Tests)
+- [License](#License)
+- [Questions](#Questions)
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## Contribution Guidelines
+${data.contribution}
+
+## Tests
+${data.tests}
+
+## License
+This application is covered under the ISC license.
+For more information, [click here](https://opensource.org/licenses/ISC).
+
+## Questions
+**My GitHub Profile**: [MushtaqSafie](https://github.com/MushtaqSafie)
+
+If you have any further questions, please email me at [mushtaq.safie@students.mq.edu.au](mushtaq.safie@students.mq.edu.au).
 `;
 
 }

@@ -3,33 +3,73 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-
 // TODO: Create an array of questions for user input
-const promptUser = () => inquirer.prompt(questions);
-
-const questions = [
+const promptUser = () => inquirer.prompt([
   {
   type: 'input',
   name: 'title',
-  message: 'Enter the project title?',
+  message: 'Enter your project title.',
   },
   {
-    type: 'editor',
-    name: 'description',
-    message: 'Write a short description of the project at least 3 lines.',
-    validate: function (text) {
-      if (text.split('\n').length < 1) {
-        return 'Must be at least 2 lines.';
-      }
-
-      return true;
+  type: 'input',
+  name: 'description',
+  message: 'Enter your project description.',
+  },
+  {
+    type: 'confirm',
+    name: 'includeInstallation',
+    message: 'Would you like to add installation guideline?',
+    default: false,
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'Enter the installation guideline',
+    when: function(answer) {
+      return answer.includeInstallation;
     },
   },
   {
     type: 'confirm',
-    name: 'toBeDelivered',
-    message: 'Is this for delivery?',
+    name: 'includeUsage',
+    message: 'Would you like to add the application usage?',
     default: false,
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'Enter the application usage',
+    when: function(answer) {
+      return answer.includeUsage;
+    },
+  },
+  {
+    type: 'confirm',
+    name: 'includeContribution',
+    message: 'Would you like to add contribution guidelines?',
+    default: false,
+  },
+  {
+    type: 'input',
+    name: 'contribution',
+    message: 'Enter the contribution guidelines',
+    when: function(answer) {
+      return answer.includeContribution;
+    },
+  },
+  {
+    type: 'confirm',
+    name: 'includeTests',
+    message: 'Would you like to add the application tests instruction?',
+    default: false,
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message: 'Enter the application tests instruction',
+    when: function(answer) {
+      return answer.includeTests;
+    },
   },
   {
     type: 'list',
@@ -40,11 +80,10 @@ const questions = [
       return val.toLowerCase();
     },
   },
-];
+]);
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
-
 
 // TODO: Create a function to initialize app
 function init() {
@@ -52,6 +91,7 @@ function init() {
     const mdFile = generateMarkdown(answers);
     fs.writeFileSync('newREADME.md', mdFile)
     console.log('Successfully README.md is created');
+    console.log(answers);
   })
   .catch(error => {
     if(error.isTtyError) {
