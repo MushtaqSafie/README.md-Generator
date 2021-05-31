@@ -1,36 +1,30 @@
-# project title
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+# Google Books Search
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-description of the project
+Google Books Search app is React-based appliaction build with MongoDB, Express, React, and Node.js (MERN framework).
 
 ## Table of Contents
 - [Description](#Description)
-- [Installation](#Installation)
+
 - [Usage](#Usage)
-- [Contribution Guidelines](#Contribution-Guidelines)
-- [Tests](#Tests)
+
+
 - [License](#License)
 - [Questions](#Questions)
 
-## Installation
-installation guideline
 
 ## Usage
-application usage
+S
 
-## Contribution Guidelines
-contribution guideline
 
-## Tests
-test here
 
 
 ## License
-This application is covered under the Mozilla Public License 2.0.
-For more information, [click here](https://opensource.org/licenses/MPL-2.0).
+This application is covered under the MIT License.
+For more information, [click here](https://opensource.org/licenses/MIT).
 
 ## Questions
 **My GitHub Profile**: [MushtaqSafie](https://github.com/MushtaqSafie)
 
-If you have any further questions, please email me at [mushtaq.safie@students.mq.edu.au](mailto:mushtaq.safie@students.mq.edu.au).
+If you have any further questions, please email me at [](mailto:).
